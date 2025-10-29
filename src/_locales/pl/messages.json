@@ -475,5 +475,8 @@
   },
   "SIV_UPDALERT": {
     "message": "• Rzeczywiste zasady zostaną dodane i zaktualizowane.\n• Reguły rozpoczynające się od „_” zostaną zachowane bez zmian.\n• Inne reguły zostaną wyłączone i przeniesione na koniec.\n\nKontynuować?"
+  },
+  "SIV_TOG_RULE": {
+    "message": "Wyłącz/włącz regułę"
   }
 }

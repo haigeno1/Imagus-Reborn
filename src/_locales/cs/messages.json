@@ -475,5 +475,8 @@
   },
   "ALLOW_DEV_MODE": {
     "message": "Chcete-li pokračovat, musíte povolit režim vývojáře na <a href=\"#\">stránce rozšíření</a>. Poté se sem vraťte."
+  },
+  "SIV_TOG_RULE": {
+    "message": "Zakázat/povolit pravidlo"
   }
 }

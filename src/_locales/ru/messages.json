@@ -475,5 +475,8 @@
   },
   "SIV_FORMAT_JS": {
     "message": "Форматировать код JavaScript"
+  },
+  "SIV_TOG_RULE": {
+    "message": "Отключить/включить правило"
   }
 }

@@ -257,6 +257,9 @@
   "SIV_REN_RULE": {
     "message": "Rename rule"
   },
+  "SIV_TOG_RULE": {
+    "message": "Disable/enable rule"
+  },
   "SIV_DEL_RULE": {
     "message": "Remove rule"
   },

@@ -266,6 +266,7 @@ var sieve_sec,
                     tag: "div", attrs: { class: "action_buttons" },
                     nodes: [
                         { tag: "span", attrs: { title: _("SIV_REN_RULE"), "data-action": "rename" },  nodes: ["✏️"] },
+                        { tag: "span", attrs: { title: _("SIV_TOG_RULE"), "data-action": "toggle", class: "bold" },  nodes: ["Ø"] },
                         { tag: "span", attrs: { title: _("SIV_DEL_RULE"), "data-action": "delete", class: "bold" },  nodes: ["-"] },
                         { tag: "span", attrs: { title: _("SIV_EXP_RULE"), "data-action": "export", class: "bold" },  nodes: ["↑"] },
                         { tag: "span", attrs: { title: _("SIV_COPY_RULE"), "data-action": "copy" },  nodes: ["📋"] },
@@ -469,6 +470,9 @@ var sieve_sec,
 
             } else if (action === "delete") {
                 SieveUI.deleteRule(target.closest(".opened"));
+
+            } else if (action === "toggle") {
+                target.closest(".opened").classList.toggle("disabled");
 
             } else if (action === "export") {
                 SieveUI.exprt(e, [target.closest(".opened")]);

@@ -475,5 +475,8 @@
   },
   "ALLOW_DEV_MODE": {
     "message": "Para continuar, você precisa ativar o Modo de Desenvolvedor na <a href=\"#\">página de Extensões</a>. Depois, volte aqui."
+  },
+  "SIV_TOG_RULE": {
+    "message": "Desabilitar/habilitar regra"
   }
 }
