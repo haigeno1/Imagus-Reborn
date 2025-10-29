@@ -911,10 +911,12 @@
                     URL = tmp_el[i]
                         .getAttribute("srcset")
                         .trim()
-                        .split(/\s*,\s*/);
+                        // split with ", ", to avoid issues with URIs containing commas
+                        // .split(/\s*,\s*/);
+                        .split(/,\s+/);
                     var j = URL.length;
                     while (j--) {
-                        var srcItem = URL[j].split(/\s+/);
+                        var srcItem = URL[j].trim().split(/\s+/);
                         if (srcItem.length !== 2) continue;
                         var descriptor = srcItem[1].slice(-1);
                         if (descriptor === "x") srcItem[1] = trg.naturalWidth * srcItem[1].slice(0, -1);
