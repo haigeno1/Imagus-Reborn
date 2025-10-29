@@ -812,8 +812,10 @@
                     if (
                         typeof ret === "string" &&
                         n !== trg &&
+                        /* access the attribute directly because src property could be missed in custom media elements (new reddit for example)
                         trg.hasAttribute("src") &&
-                        trg.src.replace(/^https?:\/\//, "") === ret.replace(/^#?(https?:)?\/\//, "")
+                        trg.src.replace(/^https?:\/\//, "") === ret.replace(/^#?(https?:)?\/\//, "") */
+                        trg.attributes.src?.value?.replace(/^https?:\/\//, "") === ret.replace(/^#?(https?:)?\/\//, "")
                     )
                         ret = false;
                     break;
