@@ -30,7 +30,7 @@
     "message": "Are you sure?"
   },
   "DELITEMS": {
-    "message": "Remove all or selected items?"
+    "message": "Remove these rules?"
   },
   "EMPTY": {
     "message": "Empty..."
@@ -246,10 +246,10 @@
     "message": "Import"
   },
   "SIV_BUTT_EXP": {
-    "message": "Export all or selected.\nCtrl: Export to new tab.\nShift: Format JSON."
+    "message": "Export all or selected.\nCtrl: Export to new tab."
   },
   "SIV_BUTT_COPY": {
-    "message": "Copy all or selected rules to clipboard.\nShift: Format JSON."
+    "message": "Copy all or selected rules to clipboard."
   },
   "SIV_BUTT_UPD": {
     "message": "Update Sieve"
@@ -264,10 +264,10 @@
     "message": "Remove rule"
   },
   "SIV_EXP_RULE": {
-    "message": "Export rule.\nCtrl: Export to new tab.\nShift: Format JSON."
+    "message": "Export rule.\nCtrl: Export to new tab."
   },
   "SIV_COPY_RULE": {
-    "message": "Copy rule to clipboard.\nShift: Format JSON."
+    "message": "Copy rule to clipboard."
   },
   "SIV_FORMAT_JS": {
     "message": "Format JavaScript code"
@@ -297,7 +297,7 @@
     "message": "Every rule must have a unique name!"
   },
   "SIV_DETAILS": {
-    "message": "Ctrl + Right click to delete<br>Drag with left mouse button to move<br>Right click to rename (Esc/Enter quits)<br>Ctrl + Left click to select (multiple select with Shift)<br>Ctrl + S to save"
+    "message": "Drag with <b>Mouse Left</b> button to reorder<br><b>Ctrl + Mouse Left</b>: select (multiple select with <b>Shift</b>)<br><b>Esc</b>: cancel selection<br><b>Mouse Right</b>: rename (<b>Esc</b>/<b>Enter</b> quits)<br><b>Del</b>, <b>Ctrl + Mouse Right</b>: delete<br><b>Ctrl + Space</b>, <b>Shift + Mouse Right</b>: disable/enable<br><b>Ctrl + I</b>, <b>Ins</b>: import<br><b>Ctrl + E</b>, <b>Alt + Mouse Right</b>: export<br><b>Ctrl + S</b>: save"
   },
   "GRNT_RULEPERLINE": {
     "message": "Rule per line. For more information click the Details button above."
