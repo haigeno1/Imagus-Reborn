@@ -377,6 +377,9 @@
   "IMPR_OVERWRITE": {
     "message": "Replace existing data"
   },
+  "IMPR_HINT": {
+    "message": "Esc: close | Ctrl + Enter: import from text"
+  },
   "LANGUAGE": {
     "message": "Language"
   },
