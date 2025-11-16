@@ -526,6 +526,7 @@ var sieve_sec,
                         dcfr.appendChild(list[i]);
                     }
                     sieve_container.insertBefore(dcfr, e.target.parentNode);
+                    $("save_button").classList.add("alert");
                 }
                 div.classList.remove("move");
                 div.style.top = div.style.left = null;
